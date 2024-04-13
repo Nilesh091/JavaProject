@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         int n= sc.nextInt();
-//        Factorial obj=new Factorial();
-//        System.out.println(obj.factorial(n));
-//        Fibonacci f=new Fibonacci();
-//        System.out.println(f.fibonacci(n));
-//        Sum s=new Sum();
-//        System.out.println(s.sum(n));
+        Factorial obj=new Factorial();
+        System.out.println(obj.factorial(n));
+        Fibonacci f=new Fibonacci();
+        System.out.println(f.fibonacci(n));
+        Sum s=new Sum();
+        System.out.println(s.sum(n));
     }
 }
