@@ -14,6 +14,13 @@ public class Main {
         for(int i=0;i<graph.length;i++){
             graph[i]=new ArrayList<edge>();
         }
+        //for(int i=0;i<graph.length;i++){
+        //            graph[i]=new ArrayList<edge>();
+        //        }
+        // if we dont use these two lines then
+        //it will through null pointer exception
+        // here we are iinitializing the null stored arraylist to empty arraylist
+        // when we are creating the arraylist we are specifying edge as data type and edge also nit initialized
         graph[0].add(new edge(0,2));
 
         graph[1].add(new edge(1,2));
