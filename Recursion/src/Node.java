@@ -1,8 +1,9 @@
-public class Node {
+class Node {
     int data;
-    Node next;
-    Node(int data){
-        this.data=data;
-        this.next=null;
+    Node left, right;
+
+    public Node(int item) {
+        data = item;
+        left = right = null;
     }
 }

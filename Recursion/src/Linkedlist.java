@@ -9,7 +9,7 @@ public class Linkedlist {
             this.next=null;
         }
     }
-    private node head;
+    public node head;
     //add at the end
     public void add(int data){
         node newNode= new node(data);
