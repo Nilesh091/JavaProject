@@ -15,7 +15,7 @@ public class BinaryTree  extends LevelOrderTravarsal {
         parent.right = new Node(key);
     }
 
-    void inorder(Node node) {
+    public static void inorder(Node node) {
         if (node != null) {
             inorder(node.left);
             System.out.print(node.data + " ");
